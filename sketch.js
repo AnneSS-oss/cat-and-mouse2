@@ -5,13 +5,13 @@ var cat,catwalking,catsitting,catend;
 var mouse,mousebegin,mousehands,mouseend;
 var garden,gardenImage;
 function preload() {
-    gardenImage = loadImage("images/garden.png");
-    catwalking = loadAnimation("images/tomThree.png","images/tomTwo.png");
-    catsitting = loadAnimation("images/tomOne.png");
-    catend = loadAnimation("images/tomFour.png");
-    mousebegin = loadAnimation("images/jerryOne.png");
-    mousehands = loadAnimation("images/jerryTwo.png","images/jerryThree.png");
-    mouseend = loadAnimation("images/jerryFour.png");
+    gardenImage = loadImage("garden.png");
+    catwalking = loadAnimation("tomThree.png","tomTwo.png");
+    catsitting = loadAnimation("tomOne.png");
+    catend = loadAnimation("tomFour.png");
+    mousebegin = loadAnimation("jerryOne.png");
+    mousehands = loadAnimation("jerryTwo.png","jerryThree.png");
+    mouseend = loadAnimation("jerryFour.png");
     //load the images here
 }
 
